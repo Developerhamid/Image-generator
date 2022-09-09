@@ -1,0 +1,22 @@
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bd00ff12;
+}
+
+header ul {
+  display: flex;
+}
+
+.lines {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.lines a {
+  color: black;
+  font-size: 1.3em;
+  text-decoration: none;
+}

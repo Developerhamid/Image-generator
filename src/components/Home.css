@@ -1,0 +1,53 @@
+.home-container {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 5px;
+}
+
+.home-card-container {
+  width: 40%;
+  padding: 5px 0;
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 50%;
+  background: rgb(255 255 255 / 53%);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: inset 0 0 3px 0px red, 0 0 7px -2px black;
+}
+
+.home-container h1 {
+  text-align: center;
+  padding: 1em 0;
+  margin: 1rem 0 2rem 0;
+}
+
+.home-container h2 {
+  text-align: center;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.button-box {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.btns {
+  padding: 4px 12px;
+  outline: none;
+  font-size: 16px;
+  background: #bd00ff12;
+  border: none;
+  height: 45px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.btns:hover {
+  cursor: pointer;
+  background-color: #bd00ff12;
+  box-shadow: 0 0 4px #bd00ff12, 0 0 14px #bd00ff12, 0 0 20px #bd00ff12,
+    0 0 24px #bd00ff12, inset 0 0 24px #bd00ff12;
+  color: green;
+}

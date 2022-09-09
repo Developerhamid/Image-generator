@@ -1,0 +1,45 @@
+.input-box {
+  margin: 20px 0;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 35px;
+  padding: 0 2px;
+  outline: none;
+  font-size: 15px;
+}
+
+.image-box {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  border: 1px solid gold;
+  border-radius: 14px;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  max-width: 60%;
+  min-width: 150px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .image-box img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-container {
+    width: 90%;
+  }
+
+  .image-box img {
+    max-width: 100%;
+  }
+}
